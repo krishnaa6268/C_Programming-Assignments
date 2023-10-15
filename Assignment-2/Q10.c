@@ -5,15 +5,13 @@
 
 int main()
 {
-    int x,app,unit;
+    int x,app;
     printf("Enter a number and only a digit to append:\n");
     scanf("%d %d",&x,&app);
 
     printf("Before(Append): x=%d\n",x);
 
-    unit=(x%10);
-    x=x-unit;
-    x=x+app;
+    x=(x*10)+app;
 
     printf("After(Append):  x=%d",x);
 
