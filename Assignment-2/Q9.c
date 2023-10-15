@@ -15,6 +15,10 @@ int main()
 
     printf("After:  x=%d",x);
 
+/* 
+    unit=(x/10)*10;              //Another Method...
+    printf("After:  x=%d",x);  
+*/
 
     return 0;
 }
