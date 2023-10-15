@@ -1,4 +1,4 @@
-// 1. Write a program to print unit digit of a given numbe
+// 1. Write a program to print the unit digit of a given number.
 
 #include<stdio.h>
 
