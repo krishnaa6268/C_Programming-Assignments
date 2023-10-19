@@ -5,14 +5,18 @@
 
 int main()
 {
-   int s1,s2,s3,s4,s5;
+   float s1,s2,s3,s4,s5,per;
    printf("Enter all marks of 5 subjects out of 100: \n");
-   scanf("%d %d %d %d %d",&s1,&s2,&s3,&s4,&s5);
+   scanf("%f %f %f %f %f",&s1,&s2,&s3,&s4,&s5);
+
+   per=(s1+s2+s3+s4+s5)*100/500;
 
    if((s1>=33 && s1<=100) && (s2>=33 && s2<=100) && (s3>=33 && s3<=100) && (s4>=33 && s4<=100) && (s5>=33 && s5<=100))
-    printf("candidate passed.");
+    printf("candidate passed.\n");
    else
-    printf("candidate failed.");
+    printf("candidate failed.\n");
+
+    printf("Percentage: %0.2f\n",per);
 
 
     getch();
