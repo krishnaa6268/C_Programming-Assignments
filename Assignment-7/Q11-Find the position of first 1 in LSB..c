@@ -23,7 +23,7 @@ int main()
         j++;
     }
 
-     printf("Position of 1st LSB one:%d",j);
+     printf("\nposition of first 1 in LSB: %d",j);
 
 
     return 0;
