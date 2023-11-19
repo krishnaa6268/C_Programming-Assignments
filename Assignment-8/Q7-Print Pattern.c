@@ -15,10 +15,10 @@ int main()
     {
         for(int j=0; j<10; j++)
         {
-            if((j==(6-i)) || (j==(5-i)))
-                printf(" ");
-            else
+            if((j<=(4-i)) || (j>=(5+i)))
                 printf("*");
+            else
+                printf(" ");
 
         }
         printf("\n");
