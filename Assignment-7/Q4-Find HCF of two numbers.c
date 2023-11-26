@@ -1,4 +1,5 @@
 //4. Write a program to calculate HCF of two numbers
+//   LCM * HCF = a*b {Relation b/w lcm and hcf}
 
 #include<stdio.h>
 
@@ -22,6 +23,7 @@ int main()
                 }
                 gr=sh;
                 sh=hcf;
+              
            }
 
     return 0;
